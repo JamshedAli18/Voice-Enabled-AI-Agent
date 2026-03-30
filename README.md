@@ -48,7 +48,6 @@ Voice-Enabled-AI-Agent/
 ├── pyproject.toml                 # Python project config
 ├── .python-version                # Forces Python 3.11
 ├── .env                           # API keys (not pushed to GitHub)
-├── .env.example                   # Example env file
 ├── .gitignore                     # Files excluded from GitHub
 ├── routers/
 │   ├── __init__.py
@@ -59,8 +58,7 @@ Voice-Enabled-AI-Agent/
 │   └── ingest.py                  # One-time script to scrape and store embeddings
 └── frontend/
     ├── package.json               # Node dependencies
-    ├── .env.local                 # Frontend env (not pushed)
-    ├── .env.example               # Example frontend env
+    ├── .env.local                 # env (Example frontend env)
     ├── tailwind.config.js         # Tailwind config
     ├── postcss.config.mjs         # PostCSS config
     └── src/
