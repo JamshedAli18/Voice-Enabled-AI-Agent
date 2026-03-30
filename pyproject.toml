@@ -1,0 +1,8 @@
+[project]
+name = "voice-enabled-ai-agent"
+version = "0.1.0"
+description = "Voice-enabled AI agent for Sun Marke School using RAG and multiple LLMs"
+requires-python = ">=3.11"
+
+[tool.uv]
+dev-dependencies = []
